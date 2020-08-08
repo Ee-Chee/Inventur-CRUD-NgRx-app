@@ -4,7 +4,7 @@ This is a special project that makes use of the [backend server](https://github.
 ## Features
 1) No login and registration required and it targets a single user, which has the id of 5.
 
-2) NgRx. A root store and two feature stores, i.e. goods store (entity feature store module) that is used to store all goods in the inventory and quantity array (standard feature store module) store that is used to store quantity of each items/Goods. Actions, reducers, effects, selectors are created to manage the stores (loading, error, data retrieving, data update).
+2) NgRx. A root store and two feature stores, i.e. goods store (entity feature store module) that is used to store all goods in the inventory and quantity array store (standard feature store module) that is used to store quantity of each item. Actions, reducers, effects, selectors are created to manage the stores (loading, error, data retrieving, data update).
 
 3) Reuse the RESTful-API backend server from the previous inventory-app project. Postgresql database as the dialect of Sequelize library.
 
